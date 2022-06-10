@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1114CBB828538F0200F806D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBB728538F0200F806D5 /* AppDelegate.swift */; };
+		1114CBBA28538F0200F806D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBB928538F0200F806D5 /* SceneDelegate.swift */; };
+		1114CBBD28538F0200F806D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBBB28538F0200F806D5 /* LaunchScreen.storyboard */; };
+		1114CBC028538F0200F806D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBBE28538F0200F806D5 /* Main.storyboard */; };
+		1114CBC928538F0200F806D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBC828538F0200F806D5 /* AppDelegate.swift */; };
+		1114CBCC28538F0200F806D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBCA28538F0200F806D5 /* Main.storyboard */; };
+		1114CBD328538F0200F806D5 /* Decolour Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1114CBD228538F0200F806D5 /* Decolour Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1114CBDD28538F0200F806D5 /* Decolour Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1114CBDC28538F0200F806D5 /* Decolour Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1114CBE328538F0200F806D5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CB9E28538F0000F806D5 /* Main.html */; };
+		1114CBE428538F0200F806D5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CB9E28538F0000F806D5 /* Main.html */; };
+		1114CBE528538F0200F806D5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA028538F0000F806D5 /* Icon.png */; };
+		1114CBE628538F0200F806D5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA028538F0000F806D5 /* Icon.png */; };
+		1114CBE728538F0200F806D5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA128538F0000F806D5 /* Style.css */; };
+		1114CBE828538F0200F806D5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA128538F0000F806D5 /* Style.css */; };
+		1114CBE928538F0200F806D5 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA228538F0000F806D5 /* Script.js */; };
+		1114CBEA28538F0200F806D5 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA228538F0000F806D5 /* Script.js */; };
+		1114CBEB28538F0200F806D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBA328538F0000F806D5 /* ViewController.swift */; };
+		1114CBEC28538F0200F806D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBA328538F0000F806D5 /* ViewController.swift */; };
+		1114CBED28538F0200F806D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA428538F0200F806D5 /* Assets.xcassets */; };
+		1114CBEE28538F0200F806D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA428538F0200F806D5 /* Assets.xcassets */; };
+		1114CBEF28538F0200F806D5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBA628538F0200F806D5 /* SafariWebExtensionHandler.swift */; };
+		1114CBF028538F0200F806D5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114CBA628538F0200F806D5 /* SafariWebExtensionHandler.swift */; };
+		1114CBF128538F0200F806D5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA828538F0200F806D5 /* _locales */; };
+		1114CBF228538F0200F806D5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA828538F0200F806D5 /* _locales */; };
+		1114CBF328538F0200F806D5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA928538F0200F806D5 /* images */; };
+		1114CBF428538F0200F806D5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA928538F0200F806D5 /* images */; };
+		1114CBF528538F0200F806D5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAA28538F0200F806D5 /* manifest.json */; };
+		1114CBF628538F0200F806D5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAA28538F0200F806D5 /* manifest.json */; };
+		1114CBF728538F0200F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAB28538F0200F806D5 /* background.js */; };
+		1114CBF828538F0200F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAB28538F0200F806D5 /* background.js */; };
+		1114CBF928538F0200F806D5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAC28538F0200F806D5 /* content.js */; };
+		1114CBFA28538F0200F806D5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAC28538F0200F806D5 /* content.js */; };
+		1114CBFB28538F0200F806D5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAD28538F0200F806D5 /* popup.html */; };
+		1114CBFC28538F0200F806D5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAD28538F0200F806D5 /* popup.html */; };
+		1114CBFD28538F0200F806D5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAE28538F0200F806D5 /* popup.css */; };
+		1114CBFE28538F0200F806D5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAE28538F0200F806D5 /* popup.css */; };
+		1114CBFF28538F0200F806D5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAF28538F0200F806D5 /* popup.js */; };
+		1114CC0028538F0200F806D5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAF28538F0200F806D5 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1114CBD428538F0200F806D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1114CB9828538F0000F806D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1114CBD128538F0200F806D5;
+			remoteInfo = "Decolour Extension (iOS)";
+		};
+		1114CBDE28538F0200F806D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1114CB9828538F0000F806D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1114CBDB28538F0200F806D5;
+			remoteInfo = "Decolour Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1114CC0628538F0200F806D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1114CBD328538F0200F806D5 /* Decolour Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CC0D28538F0200F806D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1114CBDD28538F0200F806D5 /* Decolour Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1114CB9F28538F0000F806D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		1114CBA028538F0000F806D5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1114CBA128538F0000F806D5 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1114CBA228538F0000F806D5 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1114CBA328538F0000F806D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1114CBA428538F0200F806D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1114CBA628538F0200F806D5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1114CBA828538F0200F806D5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		1114CBA928538F0200F806D5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1114CBAA28538F0200F806D5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1114CBAB28538F0200F806D5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1114CBAC28538F0200F806D5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		1114CBAD28538F0200F806D5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		1114CBAE28538F0200F806D5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		1114CBAF28538F0200F806D5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		1114CBB428538F0200F806D5 /* Decolour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decolour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1114CBB728538F0200F806D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1114CBB928538F0200F806D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1114CBBC28538F0200F806D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1114CBBF28538F0200F806D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1114CBC128538F0200F806D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1114CBC628538F0200F806D5 /* Decolour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decolour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1114CBC828538F0200F806D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1114CBCB28538F0200F806D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1114CBCD28538F0200F806D5 /* Decolour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Decolour.entitlements; sourceTree = "<group>"; };
+		1114CBD228538F0200F806D5 /* Decolour Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Decolour Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1114CBD728538F0200F806D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1114CBDC28538F0200F806D5 /* Decolour Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Decolour Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1114CBE128538F0200F806D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1114CBE228538F0200F806D5 /* Decolour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Decolour.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1114CBB128538F0200F806D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBC328538F0200F806D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBCF28538F0200F806D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBD928538F0200F806D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1114CB9728538F0000F806D5 = {
+			isa = PBXGroup;
+			children = (
+				1114CB9C28538F0000F806D5 /* Shared (App) */,
+				1114CBA528538F0200F806D5 /* Shared (Extension) */,
+				1114CBB628538F0200F806D5 /* iOS (App) */,
+				1114CBC728538F0200F806D5 /* macOS (App) */,
+				1114CBD628538F0200F806D5 /* iOS (Extension) */,
+				1114CBE028538F0200F806D5 /* macOS (Extension) */,
+				1114CBB528538F0200F806D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1114CB9C28538F0000F806D5 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBA328538F0000F806D5 /* ViewController.swift */,
+				1114CBA428538F0200F806D5 /* Assets.xcassets */,
+				1114CB9D28538F0000F806D5 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1114CB9D28538F0000F806D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1114CB9E28538F0000F806D5 /* Main.html */,
+				1114CBA028538F0000F806D5 /* Icon.png */,
+				1114CBA128538F0000F806D5 /* Style.css */,
+				1114CBA228538F0000F806D5 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1114CBA528538F0200F806D5 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBA628538F0200F806D5 /* SafariWebExtensionHandler.swift */,
+				1114CBA728538F0200F806D5 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1114CBA728538F0200F806D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBA828538F0200F806D5 /* _locales */,
+				1114CBA928538F0200F806D5 /* images */,
+				1114CBAA28538F0200F806D5 /* manifest.json */,
+				1114CBAB28538F0200F806D5 /* background.js */,
+				1114CBAC28538F0200F806D5 /* content.js */,
+				1114CBAD28538F0200F806D5 /* popup.html */,
+				1114CBAE28538F0200F806D5 /* popup.css */,
+				1114CBAF28538F0200F806D5 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1114CBB528538F0200F806D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBB428538F0200F806D5 /* Decolour.app */,
+				1114CBC628538F0200F806D5 /* Decolour.app */,
+				1114CBD228538F0200F806D5 /* Decolour Extension.appex */,
+				1114CBDC28538F0200F806D5 /* Decolour Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1114CBB628538F0200F806D5 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBB728538F0200F806D5 /* AppDelegate.swift */,
+				1114CBB928538F0200F806D5 /* SceneDelegate.swift */,
+				1114CBBB28538F0200F806D5 /* LaunchScreen.storyboard */,
+				1114CBBE28538F0200F806D5 /* Main.storyboard */,
+				1114CBC128538F0200F806D5 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1114CBC728538F0200F806D5 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBC828538F0200F806D5 /* AppDelegate.swift */,
+				1114CBCA28538F0200F806D5 /* Main.storyboard */,
+				1114CBCD28538F0200F806D5 /* Decolour.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1114CBD628538F0200F806D5 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBD728538F0200F806D5 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1114CBE028538F0200F806D5 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1114CBE128538F0200F806D5 /* Info.plist */,
+				1114CBE228538F0200F806D5 /* Decolour.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1114CBB328538F0200F806D5 /* Decolour (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1114CC0728538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour (iOS)" */;
+			buildPhases = (
+				1114CBB028538F0200F806D5 /* Sources */,
+				1114CBB128538F0200F806D5 /* Frameworks */,
+				1114CBB228538F0200F806D5 /* Resources */,
+				1114CC0628538F0200F806D5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1114CBD528538F0200F806D5 /* PBXTargetDependency */,
+			);
+			name = "Decolour (iOS)";
+			productName = "Decolour (iOS)";
+			productReference = 1114CBB428538F0200F806D5 /* Decolour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1114CBC528538F0200F806D5 /* Decolour (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1114CC0E28538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour (macOS)" */;
+			buildPhases = (
+				1114CBC228538F0200F806D5 /* Sources */,
+				1114CBC328538F0200F806D5 /* Frameworks */,
+				1114CBC428538F0200F806D5 /* Resources */,
+				1114CC0D28538F0200F806D5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1114CBDF28538F0200F806D5 /* PBXTargetDependency */,
+			);
+			name = "Decolour (macOS)";
+			productName = "Decolour (macOS)";
+			productReference = 1114CBC628538F0200F806D5 /* Decolour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1114CBD128538F0200F806D5 /* Decolour Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1114CC0328538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour Extension (iOS)" */;
+			buildPhases = (
+				1114CBCE28538F0200F806D5 /* Sources */,
+				1114CBCF28538F0200F806D5 /* Frameworks */,
+				1114CBD028538F0200F806D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decolour Extension (iOS)";
+			productName = "Decolour Extension (iOS)";
+			productReference = 1114CBD228538F0200F806D5 /* Decolour Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1114CBDB28538F0200F806D5 /* Decolour Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1114CC0A28538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour Extension (macOS)" */;
+			buildPhases = (
+				1114CBD828538F0200F806D5 /* Sources */,
+				1114CBD928538F0200F806D5 /* Frameworks */,
+				1114CBDA28538F0200F806D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decolour Extension (macOS)";
+			productName = "Decolour Extension (macOS)";
+			productReference = 1114CBDC28538F0200F806D5 /* Decolour Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1114CB9828538F0000F806D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1114CBB328538F0200F806D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1114CBC528538F0200F806D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1114CBD128538F0200F806D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1114CBDB28538F0200F806D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1114CB9B28538F0000F806D5 /* Build configuration list for PBXProject "Decolour" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1114CB9728538F0000F806D5;
+			productRefGroup = 1114CBB528538F0200F806D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1114CBB328538F0200F806D5 /* Decolour (iOS) */,
+				1114CBC528538F0200F806D5 /* Decolour (macOS) */,
+				1114CBD128538F0200F806D5 /* Decolour Extension (iOS) */,
+				1114CBDB28538F0200F806D5 /* Decolour Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1114CBB228538F0200F806D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBE528538F0200F806D5 /* Icon.png in Resources */,
+				1114CBBD28538F0200F806D5 /* LaunchScreen.storyboard in Resources */,
+				1114CBE328538F0200F806D5 /* Main.html in Resources */,
+				1114CBE928538F0200F806D5 /* Script.js in Resources */,
+				1114CBED28538F0200F806D5 /* Assets.xcassets in Resources */,
+				1114CBC028538F0200F806D5 /* Main.storyboard in Resources */,
+				1114CBE728538F0200F806D5 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBC428538F0200F806D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBE628538F0200F806D5 /* Icon.png in Resources */,
+				1114CBE828538F0200F806D5 /* Style.css in Resources */,
+				1114CBCC28538F0200F806D5 /* Main.storyboard in Resources */,
+				1114CBEA28538F0200F806D5 /* Script.js in Resources */,
+				1114CBEE28538F0200F806D5 /* Assets.xcassets in Resources */,
+				1114CBE428538F0200F806D5 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBD028538F0200F806D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBF728538F0200F806D5 /* background.js in Resources */,
+				1114CBFD28538F0200F806D5 /* popup.css in Resources */,
+				1114CBFB28538F0200F806D5 /* popup.html in Resources */,
+				1114CBF328538F0200F806D5 /* images in Resources */,
+				1114CBF528538F0200F806D5 /* manifest.json in Resources */,
+				1114CBF128538F0200F806D5 /* _locales in Resources */,
+				1114CBF928538F0200F806D5 /* content.js in Resources */,
+				1114CBFF28538F0200F806D5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBDA28538F0200F806D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBF828538F0200F806D5 /* background.js in Resources */,
+				1114CBFE28538F0200F806D5 /* popup.css in Resources */,
+				1114CBFC28538F0200F806D5 /* popup.html in Resources */,
+				1114CBF428538F0200F806D5 /* images in Resources */,
+				1114CBF628538F0200F806D5 /* manifest.json in Resources */,
+				1114CBF228538F0200F806D5 /* _locales in Resources */,
+				1114CBFA28538F0200F806D5 /* content.js in Resources */,
+				1114CC0028538F0200F806D5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1114CBB028538F0200F806D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBEB28538F0200F806D5 /* ViewController.swift in Sources */,
+				1114CBB828538F0200F806D5 /* AppDelegate.swift in Sources */,
+				1114CBBA28538F0200F806D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBC228538F0200F806D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBEC28538F0200F806D5 /* ViewController.swift in Sources */,
+				1114CBC928538F0200F806D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBCE28538F0200F806D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBEF28538F0200F806D5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1114CBD828538F0200F806D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114CBF028538F0200F806D5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1114CBD528538F0200F806D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1114CBD128538F0200F806D5 /* Decolour Extension (iOS) */;
+			targetProxy = 1114CBD428538F0200F806D5 /* PBXContainerItemProxy */;
+		};
+		1114CBDF28538F0200F806D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1114CBDB28538F0200F806D5 /* Decolour Extension (macOS) */;
+			targetProxy = 1114CBDE28538F0200F806D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1114CB9E28538F0000F806D5 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1114CB9F28538F0000F806D5 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1114CBBB28538F0200F806D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1114CBBC28538F0200F806D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1114CBBE28538F0200F806D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1114CBBF28538F0200F806D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1114CBCA28538F0200F806D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1114CBCB28538F0200F806D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1114CC0128538F0200F806D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1114CC0228538F0200F806D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1114CC0428538F0200F806D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_NAME = "Decolour Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1114CC0528538F0200F806D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_NAME = "Decolour Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1114CC0828538F0200F806D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_NAME = Decolour;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1114CC0928538F0200F806D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_NAME = Decolour;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1114CC0B28538F0200F806D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Decolour.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_NAME = "Decolour Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1114CC0C28538F0200F806D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Decolour.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_NAME = "Decolour Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1114CC0F28538F0200F806D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Decolour.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_NAME = Decolour;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1114CC1028538F0200F806D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Decolour.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_NAME = Decolour;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1114CB9B28538F0000F806D5 /* Build configuration list for PBXProject "Decolour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1114CC0128538F0200F806D5 /* Debug */,
+				1114CC0228538F0200F806D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1114CC0328538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1114CC0428538F0200F806D5 /* Debug */,
+				1114CC0528538F0200F806D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1114CC0728538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1114CC0828538F0200F806D5 /* Debug */,
+				1114CC0928538F0200F806D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1114CC0A28538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1114CC0B28538F0200F806D5 /* Debug */,
+				1114CC0C28538F0200F806D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1114CC0E28538F0200F806D5 /* Build configuration list for PBXNativeTarget "Decolour (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1114CC0F28538F0200F806D5 /* Debug */,
+				1114CC1028538F0200F806D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1114CB9828538F0000F806D5 /* Project object */;
+}
