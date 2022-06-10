@@ -1,10 +1,3 @@
-//
-//  SafariWebExtensionHandler.swift
-//  Shared (Extension)
-//
-//  Created by Tuğkan Kibar on 10/06/2022.
-//
-
 import SafariServices
 import os.log
 

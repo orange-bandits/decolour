@@ -35,16 +35,12 @@
 		1114CBF428538F0200F806D5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBA928538F0200F806D5 /* images */; };
 		1114CBF528538F0200F806D5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAA28538F0200F806D5 /* manifest.json */; };
 		1114CBF628538F0200F806D5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAA28538F0200F806D5 /* manifest.json */; };
-		1114CBF728538F0200F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAB28538F0200F806D5 /* background.js */; };
-		1114CBF828538F0200F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAB28538F0200F806D5 /* background.js */; };
-		1114CBF928538F0200F806D5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAC28538F0200F806D5 /* content.js */; };
-		1114CBFA28538F0200F806D5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAC28538F0200F806D5 /* content.js */; };
-		1114CBFB28538F0200F806D5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAD28538F0200F806D5 /* popup.html */; };
-		1114CBFC28538F0200F806D5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAD28538F0200F806D5 /* popup.html */; };
-		1114CBFD28538F0200F806D5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAE28538F0200F806D5 /* popup.css */; };
-		1114CBFE28538F0200F806D5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAE28538F0200F806D5 /* popup.css */; };
-		1114CBFF28538F0200F806D5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAF28538F0200F806D5 /* popup.js */; };
-		1114CC0028538F0200F806D5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CBAF28538F0200F806D5 /* popup.js */; };
+		1114CC122853917D00F806D5 /* grayscale.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC112853917D00F806D5 /* grayscale.css */; };
+		1114CC132853917D00F806D5 /* grayscale.css in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC112853917D00F806D5 /* grayscale.css */; };
+		1114CC15285394EC00F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC14285394EC00F806D5 /* background.js */; };
+		1114CC16285394EC00F806D5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC14285394EC00F806D5 /* background.js */; };
+		1114CC182853A12700F806D5 /* toggle-grayscale.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC172853A12700F806D5 /* toggle-grayscale.js */; };
+		1114CC192853A12700F806D5 /* toggle-grayscale.js in Resources */ = {isa = PBXBuildFile; fileRef = 1114CC172853A12700F806D5 /* toggle-grayscale.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +96,6 @@
 		1114CBA828538F0200F806D5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		1114CBA928538F0200F806D5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		1114CBAA28538F0200F806D5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		1114CBAB28538F0200F806D5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		1114CBAC28538F0200F806D5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		1114CBAD28538F0200F806D5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		1114CBAE28538F0200F806D5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		1114CBAF28538F0200F806D5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		1114CBB428538F0200F806D5 /* Decolour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decolour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1114CBB728538F0200F806D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1114CBB928538F0200F806D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +111,9 @@
 		1114CBDC28538F0200F806D5 /* Decolour Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Decolour Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1114CBE128538F0200F806D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1114CBE228538F0200F806D5 /* Decolour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Decolour.entitlements; sourceTree = "<group>"; };
+		1114CC112853917D00F806D5 /* grayscale.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = grayscale.css; sourceTree = "<group>"; };
+		1114CC14285394EC00F806D5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1114CC172853A12700F806D5 /* toggle-grayscale.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "toggle-grayscale.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,11 +197,9 @@
 				1114CBA828538F0200F806D5 /* _locales */,
 				1114CBA928538F0200F806D5 /* images */,
 				1114CBAA28538F0200F806D5 /* manifest.json */,
-				1114CBAB28538F0200F806D5 /* background.js */,
-				1114CBAC28538F0200F806D5 /* content.js */,
-				1114CBAD28538F0200F806D5 /* popup.html */,
-				1114CBAE28538F0200F806D5 /* popup.css */,
-				1114CBAF28538F0200F806D5 /* popup.js */,
+				1114CC172853A12700F806D5 /* toggle-grayscale.js */,
+				1114CC112853917D00F806D5 /* grayscale.css */,
+				1114CC14285394EC00F806D5 /* background.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,14 +406,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1114CBF728538F0200F806D5 /* background.js in Resources */,
-				1114CBFD28538F0200F806D5 /* popup.css in Resources */,
-				1114CBFB28538F0200F806D5 /* popup.html in Resources */,
 				1114CBF328538F0200F806D5 /* images in Resources */,
 				1114CBF528538F0200F806D5 /* manifest.json in Resources */,
 				1114CBF128538F0200F806D5 /* _locales in Resources */,
-				1114CBF928538F0200F806D5 /* content.js in Resources */,
-				1114CBFF28538F0200F806D5 /* popup.js in Resources */,
+				1114CC15285394EC00F806D5 /* background.js in Resources */,
+				1114CC122853917D00F806D5 /* grayscale.css in Resources */,
+				1114CC182853A12700F806D5 /* toggle-grayscale.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +419,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1114CBF828538F0200F806D5 /* background.js in Resources */,
-				1114CBFE28538F0200F806D5 /* popup.css in Resources */,
-				1114CBFC28538F0200F806D5 /* popup.html in Resources */,
 				1114CBF428538F0200F806D5 /* images in Resources */,
 				1114CBF628538F0200F806D5 /* manifest.json in Resources */,
 				1114CBF228538F0200F806D5 /* _locales in Resources */,
-				1114CBFA28538F0200F806D5 /* content.js in Resources */,
-				1114CC0028538F0200F806D5 /* popup.js in Resources */,
+				1114CC16285394EC00F806D5 /* background.js in Resources */,
+				1114CC132853917D00F806D5 /* grayscale.css in Resources */,
+				1114CC192853A12700F806D5 /* toggle-grayscale.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +551,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5S597ZDU5U;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -621,6 +610,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5S597ZDU5U;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -645,7 +635,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,7 +648,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour.extension;
 				PRODUCT_NAME = "Decolour Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -675,7 +665,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Decolour Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = Decolour;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -688,7 +678,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour.extension;
 				PRODUCT_NAME = "Decolour Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -727,7 +717,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour;
 				PRODUCT_NAME = Decolour;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -764,7 +754,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour;
 				PRODUCT_NAME = Decolour;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -796,7 +786,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour.extension;
 				PRODUCT_NAME = "Decolour Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -827,7 +817,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour.extension;
 				PRODUCT_NAME = "Decolour Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -862,7 +852,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour;
 				PRODUCT_NAME = Decolour;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -896,7 +886,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.Decolour;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangebandits.decolour;
 				PRODUCT_NAME = Decolour;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
