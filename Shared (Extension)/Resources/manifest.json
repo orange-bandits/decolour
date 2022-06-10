@@ -18,12 +18,12 @@
     },
     "browser_action": {
         "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
+            "16": "images/grayscale/toolbar-icon-16.png",
+            "19": "images/grayscale/toolbar-icon-19.png",
+            "32": "images/grayscale/toolbar-icon-32.png",
+            "38": "images/grayscale/toolbar-icon-38.png",
+            "48": "images/grayscale/toolbar-icon-48.png",
+            "72": "images/grayscale/toolbar-icon-72.png"
         }
     },
 
